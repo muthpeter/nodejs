@@ -1,0 +1,32 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "A node js based cryptocurrency scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muthpeter/scraper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "scraper",
+    "puppeteer"
+  ],
+  "author": "Peter Muth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/muthpeter/scraper/issues"
+  },
+  "homepage": "https://github.com/muthpeter/scraper#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "kraken-exc": "^1.4.4",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "puppeteer-core": "^10.2.0"
+  }
+}
